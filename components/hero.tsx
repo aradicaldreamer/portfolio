@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { tagline } from "@/lib/about";
+import { renderBody } from "@/components/render-body";
 
 export default function Hero() {
   const stats = [
@@ -19,7 +21,7 @@ export default function Hero() {
           <div className="flex items-center gap-2 mb-5">
             <div className="w-6 h-px bg-indigo-400" />
             <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">
-              available for work
+              
             </span>
           </div>
 
@@ -33,16 +35,13 @@ export default function Hero() {
           </p>
 
           {/* Bio */}
-          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-lg mb-8">
-            I build high-performance games and systems with Unity, Unreal, and
-            .NET. I love the craft — and I love sharing it. Whether it&apos;s
-            real-time rendering, gameplay architecture, or helping another
-            developer find their footing, that&apos;s where I find my purpose.
-          </p>
+          <div className="text-sm max-w-lg mb-8">
+            {renderBody(tagline)}
+          </div>
 
           {/* CTAs */}
           <div className="flex items-center gap-3 flex-wrap mb-8">
-            <a href="/cv.pdf" download>
+            <a href="/Dan_Szabo_CV_Online.pdf" download>
               <Button className="bg-indigo-500 hover:bg-indigo-400 text-white rounded-none font-medium text-sm px-5 gap-2 transition-colors">
                 <Download size={14} />
                 Download CV
@@ -59,25 +58,16 @@ export default function Hero() {
           </div>
 
           {/* Socials */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <span className="text-zinc-400 dark:text-zinc-600 text-xs mr-1">find me on</span>
             <a
               href="https://linkedin.com/in/dan-szabo-02ab952b"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="w-9 h-9 flex items-center justify-center border border-zinc-200 dark:border-zinc-800 text-zinc-500 hover:border-indigo-400 hover:text-indigo-400 transition-all"
+              className="w-11 h-11 flex items-center justify-center border border-blue-400 dark:border-blue-500 text-blue-500 dark:text-blue-400 hover:bg-blue-500 hover:text-white hover:border-blue-500 hover:scale-110 transition-all duration-150"
             >
-              <svg
-                width="15"
-                height="15"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
                 <rect x="2" y="9" width="4" height="12" />
                 <circle cx="4" cy="4" r="2" />
@@ -88,21 +78,21 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="group w-9 h-9 flex items-center justify-center border border-zinc-200 dark:border-zinc-800 hover:border-indigo-400 transition-all"
+              className="group w-11 h-11 flex items-center justify-center border border-violet-400 dark:border-violet-500 hover:bg-violet-500 hover:scale-110 transition-all duration-150"
             >
               <img
                 src="/github.svg"
                 alt=""
                 aria-hidden="true"
-                className="w-4 h-4 dark:invert opacity-50 group-hover:opacity-100 transition-opacity"
+                className="w-6 h-6 dark:invert opacity-70 group-hover:invert group-hover:opacity-100 transition-all"
               />
             </a>
             <a
               href="mailto:danszabo.dev@gmail.com"
               aria-label="Email"
-              className="w-9 h-9 flex items-center justify-center border border-zinc-200 dark:border-zinc-800 text-zinc-500 hover:border-indigo-400 hover:text-indigo-400 transition-all"
+              className="w-11 h-11 flex items-center justify-center border border-amber-400 dark:border-amber-500 text-amber-500 dark:text-amber-400 hover:bg-amber-500 hover:text-white hover:border-amber-500 hover:scale-110 transition-all duration-150"
             >
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="M2 7l10 7 10-7" />
               </svg>
@@ -133,13 +123,6 @@ export default function Hero() {
                 className="object-cover object-top"
                 priority
               />
-            </div>
-            {/* Availability badge */}
-            <div className="absolute -bottom-3 -right-3 z-20 bg-stone-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 px-3 py-2 flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-              <span className="text-zinc-500 dark:text-zinc-400 text-[11px]">
-                open to opportunities
-              </span>
             </div>
           </div>
         </div>

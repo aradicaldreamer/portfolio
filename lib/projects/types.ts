@@ -6,6 +6,7 @@ export type ProjectSection = {
   video?: string;
   youtube?: string;      // YouTube video ID — replaces image in the side-by-side layout
   youtubeBelow?: string; // YouTube video ID — full-width embed below the image+text row
+  videoBelow?: string;   // Video file path — full-width player below the image+text row
 };
 
 export type ProjectLink = {

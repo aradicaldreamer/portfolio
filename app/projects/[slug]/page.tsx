@@ -3,29 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { projects, getProjectById, type ProjectSection } from "@/lib/projects";
 import { LightboxImage } from "@/components/lightbox-image";
-
-function renderBody(body: string) {
-  return body.split("\n\n").map((block, i) => {
-    const lines = block.split("\n");
-    const isList = lines.every((l) => l.startsWith("- "));
-    if (isList) {
-      return (
-        <ul key={i} className="list-disc list-outside pl-5 mb-3 last:mb-0 space-y-1">
-          {lines.map((l, j) => (
-            <li key={j} className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-              {l.slice(2)}
-            </li>
-          ))}
-        </ul>
-      );
-    }
-    return (
-      <p key={i} className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-3 last:mb-0">
-        {block}
-      </p>
-    );
-  });
-}
+import { renderBody } from "@/components/render-body";
 
 export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.id }));
@@ -207,6 +185,20 @@ export default async function ProjectPage({
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         className="w-full h-full border border-zinc-200 dark:border-zinc-800"
+                      />
+                    </div>
+                  )}
+                  {/* Video file — full width below the image+text row */}
+                  {section.videoBelow && (
+                    <div className="md:col-span-2">
+                      <video
+                        src={section.videoBelow}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        controls
+                        className="w-full border border-zinc-200 dark:border-zinc-800"
                       />
                     </div>
                   )}

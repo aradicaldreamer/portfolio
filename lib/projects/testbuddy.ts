@@ -3,29 +3,51 @@ import type { Project } from "./types";
 export const testbuddy: Project = {
   id: "testbuddy",
   title: "TestBuddy",
-  year: "2024 – present",
+  year: "2024 – 2026",
   team: "Mighty Build and Test",
   role: "Technical Lead",
   category: "professional",
   homeFeatured: true,
   image: "/images/mbt.png",
-  description:
-    "An enterprise QA platform built for games industry testers. One-button bug creation, automated similar-bug detection, Jira and LQA CMS integration, gameplay footage recording, and cross-platform coverage — all designed to reduce friction at every step of the reporting workflow.",
+  description: `
+An enterprise QA platform built for games industry testers, featuring one-button bug creation, similar-bug detection, and third party integrations such as Jira and LQA tooling.
+  `,
   tags: ["QA Tooling", "C#", ".NET", "MAUI", "AWS"],
-  fullDescription:
-    "TestBuddy is an enterprise QA tool developed at Mighty Build and Test, purpose-built for games industry test teams. The goal was to remove friction from every part of the bug-reporting workflow — from capturing a defect to getting it into a project management system.\n\nThe platform handles gameplay footage recording, one-button bug creation, automated detection of similar existing bugs, and deep integrations with Jira and LQA CMS. It runs cross-platform and is designed to slot into existing studio pipelines without disruption.",
+  fullDescription: `
+TestBuddy was a QA tool developed at Mighty Build and Test, built for QA teams. The goal was to remove friction from every part of the bug-reporting workflow,
+from capturing a defect to getting it into a project management system.
+
+The platform handles gameplay footage recording, one-button bug creation, automated detection of similar existing bugs, and integrations with Jira and LQA tools.
+  `,
   sections: [
     {
-      title: "One-Button Bug Creation",
-      body: "The core experience is fast, low-friction reporting. Testers can file a complete bug report — with footage, metadata, and reproduction steps — in a single action. The system automatically captures context so testers can stay focused on testing rather than administration.",
+      title: "My role",
+      body: `
+I joined the project a year after the start of its development, as the app was getting ready to head into testing.
+My initial focus was to make the development cycle more robust, adding:
+
+- Coding standards to adhere to during development
+- Release process to roll out new builds to QA and live users
+- Code review process to handle merge requests
+- Regular developer-only meetings to discuss code
+
+As more developers were added to the team, I was able to ensure their tasks were clear and communication was open within the team.
+      `,
     },
     {
-      title: "Similar Bug Detection",
-      body: "TestBuddy analyses incoming reports against existing bug databases to surface potential duplicates before they're filed. This reduces noise in the backlog and helps teams spot patterns across platforms and build versions early in the cycle.",
-    },
-    {
-      title: "Integrations & Platform Coverage",
-      body: "Deep integrations with Jira and LQA CMS mean bugs flow directly into existing studio workflows without copy-paste or reformatting. The tool runs cross-platform, supporting the variety of hardware configurations typical in games QA environments.",
+      title: "Tech Stack",
+      body: `
+The application was build in .NET MAUI, the successor to Xamarin.
+The infrastructure uses AWS to handle user authentication and permissions, databases, app sync, and storage.
+Third party tools such as Jira and XLOC (Keywords' own LQA content management system) were a necessity for the full feature set.
+
+For my own features, I focused mainly on the LQA feature set, including:
+
+- Optical Character Recognition (OCR) using Tesseract and OpenCV
+- Image processing for text recognition
+- XLOC integration for localisation coverage as testers play through the game
+- Infrastructure integration with AWS for configuration, authentication and storage
+      `,
     },
   ],
 };

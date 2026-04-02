@@ -1,22 +1,5 @@
-type SkillGroup = {
-  label: string;
-  skills: string[];
-};
-
-const skillGroups: SkillGroup[] = [
-  {
-    label: "Game Development",
-    skills: ["Unity / C#", "Unreal Engine / C++", "GOAP AI Systems", "Custom Editor Tools", "Real-time Rendering"],
-  },
-  {
-    label: "Engineering",
-    skills: ["CI/CD — Kubernetes, Concourse", "Cloud Infrastructure — AWS", "Test Automation", "C# / .NET"],
-  },
-  {
-    label: "Collaboration",
-    skills: ["Technical Documentation", "Mentorship & Training", "Architecture & Code Review", "Cross-disciplinary Teams"],
-  },
-];
+import { skillGroups } from "@/lib/about";
+import { renderBody } from "@/components/render-body";
 
 export default function HomeAbout() {
   return (
@@ -29,30 +12,10 @@ export default function HomeAbout() {
           </span>
         </div>
         <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-10">
-          A bit about me
+          Skills Summary
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Bio */}
-          <div className="space-y-4">
-            <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-              I&apos;m Dan — a Melbourne-based game developer and automation
-              engineer. I graduated from the University of Melbourne with a
-              degree in Electrical Engineering and Arts, and have spent the
-              years since building systems that scale: first in infrastructure
-              and tooling, and increasingly in games.
-            </p>
-            <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-              Game development sits at the intersection of everything I love
-              most — maths, creativity, problem-solving, and storytelling. I
-              care about the craft of clean, maintainable systems as much as I
-              care about the end result.
-            </p>
-            <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-              I&apos;m equally energised by shipping something polished and by
-              helping another developer find their footing along the way.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
 
           {/* Skills */}
           <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 gap-6">
@@ -64,7 +27,7 @@ export default function HomeAbout() {
                 <ul className="space-y-1.5">
                   {group.skills.map((skill) => (
                     <li key={skill} className="flex items-baseline gap-2">
-                      <span className="w-1 h-1 rounded-full bg-indigo-400 flex-shrink-0 mt-[7px]" />
+                      <span className="w-1 h-1 rounded-full bg-indigo-400 shrink-0 mt-1.75]" />
                       <span className="text-sm text-zinc-700 dark:text-zinc-300">
                         {skill}
                       </span>
