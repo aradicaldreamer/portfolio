@@ -5,8 +5,7 @@ import { X } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
-  { label: "home", href: "/" },
-  { label: "projects", href: "/projects" },
+  { label: "projects", href: "/#work" },
   { label: "about", href: "/#about" },
   { label: "contact", href: "/#contact" },
 ];
@@ -18,7 +17,7 @@ export function SiteNav() {
     <nav className="relative z-50 container-section border-b border-zinc-200 dark:border-zinc-800/60">
       <div className="flex items-center justify-between px-6 md:px-10 py-5">
         <a href="/" className="text-indigo-500 dark:text-indigo-400 text-sm font-semibold tracking-wide">
-          danscode.net
+          Home
         </a>
 
         {/* Desktop links */}

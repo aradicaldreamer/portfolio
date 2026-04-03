@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dan Szabo - Portfolio",
+  title: "Matthew Deline - Portfolio",
   description: "Melbourne based game developer",
 };
 

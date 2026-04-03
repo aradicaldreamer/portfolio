@@ -12,17 +12,17 @@ export default function HomeContact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="mailto:danszabo.dev@gmail.com"
+            href="mailto:campervangames@gmail.com"
             className="inline-flex items-center gap-2.5 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white text-sm transition-colors"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="M2 7l10 7 10-7" />
             </svg>
-            danszabo.dev@gmail.com
+            campervangames@gmail.com
           </a>
           <a
-            href="https://linkedin.com/in/dan-szabo-02ab952b"
+            href="https://linkedin.com/in/matthewdeline"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-6 py-3 border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:border-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-400 text-sm transition-colors"
@@ -35,7 +35,7 @@ export default function HomeContact() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/Aspekt1024"
+            href="https://github.com/aradicaldreamer"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2.5 px-6 py-3 border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:border-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-400 text-sm transition-colors"

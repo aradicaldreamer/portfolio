@@ -1,9 +1,8 @@
 
 export const tagline = `
-Hello, I'm Dan. I'm a game programmer committed to the philosophy of life-long learning.
+Hello, I'm Matt. I'm an indie creator and installation designer originally from California.
 
-Game development sits at the intersection of the things that excite me about the world: problem solving, maths, language, music and storytelling,
-and I love the process of bringing all of these together through the art of programming.
+I'm best known for my work as the former Head of Automation Engineering at Mighty Build and Test, as a developer for Mighty Games, 
 `;
 
 export const skillGroups = [
