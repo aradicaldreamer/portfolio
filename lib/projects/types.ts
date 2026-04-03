@@ -21,7 +21,7 @@ export type Project = {
   year: string;
   team?: string;
   role?: string;
-  category: "professional" | "personal" | "jam";
+  category: "professional" | "academic" | "jam" | "speaking";
   homeFeatured?: boolean;
   description: string;
   tags: string[];

@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
           <p className="text-lg text-zinc-500 mb-6 font-medium">
             Game Development{" "}
-            <span className="text-indigo-500 dark:text-indigo-400">|</span> Procution {" "}
+            <span className="text-indigo-500 dark:text-indigo-400">|</span> Production {" "}
             <span className="text-indigo-500 dark:text-indigo-400">|</span> Design
           </p>
 
