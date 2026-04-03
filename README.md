@@ -18,7 +18,7 @@ Note: If you're planning to publish via GitHub Pages, make sure to clone to the 
 1. Fork and clone the repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/your_username.github.io.git
-   cd portfolio
+   cd your_username.github.io
    ```
 
 2. Install dependencies:
