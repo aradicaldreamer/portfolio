@@ -7,7 +7,7 @@ export const playerController: Project = {
   team: "Solo",
   role: "Programmer",
   category: "personal",
-  image: "/images/player-controller/playerController2d.gif",
+  image: "/images/player-controller/trixie-run.png",
   description:
     "A reusable 2D platformer controller with extensible abilities, substance interactions (water, bounce pads, flight), and multi-controller keybinding. Base code remains unmodified when extending for specific games.",
   tags: ["Unity", "C#", "State Machines"],
