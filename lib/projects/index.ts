@@ -7,6 +7,7 @@ export type { Project, ProjectSection, ProjectLink } from "./types";
 
 import { fitbitArcade } from "./fitbit-arcade";
 import { piffleplus } from "./piffleplus";
+import { maka } from "./maka";
 
 export const projects = [
   // Professional
@@ -14,6 +15,7 @@ export const projects = [
   fitbitArcade,
   // Academic
   // Game Jams
+  maka,
   // Speaking
 ];
 
