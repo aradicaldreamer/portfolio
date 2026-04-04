@@ -6,7 +6,7 @@ export const maka: Project = {
   year: "2019",
   role: "Producer, Writer, Designer",
   category: "jam",
-  image: "/images/maka/avo3-1.gif",
+  image: "/images/maka/maka.png",
   description: `
 2019 Global Game Jam Entry. A satirical game where you play as a piece of smashed avo, smashing things!
   `,
