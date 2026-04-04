@@ -35,7 +35,7 @@ export default function Hero() {
             <span className="text-indigo-500 dark:text-indigo-400">|</span> Design
           </p>
 
-          {/* Bio */}
+          {/* Tagline */}
           <div className="text-sm max-w-lg mb-8">
             {renderBody(tagline)}
           </div>

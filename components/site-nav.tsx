@@ -6,8 +6,9 @@ import { ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
   { label: "projects", href: "/#work" },
-  // { label: "about", href: "/#about" },
+  { label: "about", href: "/#about" },
   { label: "contact", href: "/#contact" },
+  { label: "play", href: "https://aradicaldreamer.itch.io"},
 ];
 
 export function SiteNav() {

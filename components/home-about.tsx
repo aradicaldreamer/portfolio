@@ -1,3 +1,4 @@
+import { bio } from "@/lib/about";
 import { skillGroups } from "@/lib/about";
 import { renderBody } from "@/components/render-body";
 
@@ -11,14 +12,24 @@ export default function HomeAbout() {
             about
           </span>
         </div>
-        <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-10">
-          Skills Summary
-        </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
+        {/* Bio */}
+        <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-10">
+          Bio
+        </h2>
+        <div className="text-sm max-w-lg mb-8">
+          {renderBody(bio)}
+        </div>
+
+        {/* Skills Summary */}
+        {/* <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-10">
+          Skills Summary
+        </h2> */}
+
+        {/* <div className="grid grid-cols-1 lg:grid-cols-1 gap-12"> */}
 
           {/* Skills */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 gap-6">
             {skillGroups.map((group) => (
               <div key={group.label}>
                 <h3 className="text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-600 mb-3 font-medium">
@@ -37,7 +48,7 @@ export default function HomeAbout() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
