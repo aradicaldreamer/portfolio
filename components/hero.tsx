@@ -7,8 +7,8 @@ import { renderBody } from "@/components/render-body";
 export default function Hero() {
   const stats = [
     { num: "+ 20 years", label: "professional experience" },
+    { num: "+ 10 years", label: "leadership experience" },
     { num: "+ 7 years", label: "in game development" },
-    { num: "3", label: "engines" },
   ];
 
   return (

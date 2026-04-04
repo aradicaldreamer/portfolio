@@ -120,7 +120,7 @@ export default function ProjectsPage() {
         <div className="flex items-center gap-2 mb-4">
           <div className="w-6 h-px bg-indigo-400" />
           <span className="text-indigo-500 dark:text-indigo-400 text-xs tracking-widest uppercase">
-            work
+            Projects
           </span>
         </div>
         <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-14">
@@ -139,7 +139,7 @@ export default function ProjectsPage() {
 
         {/* Personal Projects */}
         <div className="border-t border-zinc-200 dark:border-zinc-800 pt-14">
-          <SectionHeading label="personal" title="Personal Projects" />
+          <SectionHeading label="Academic" title="Academic Projects" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {personalWork.map((project) => (
               <ProjectCard key={project.id} project={project} />
