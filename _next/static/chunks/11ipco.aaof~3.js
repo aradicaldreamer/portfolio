@@ -9,7 +9,7 @@ Managed Automation Engineering and client support across a suite of 16 games for
 Developer on multiple titles in the suite.
   `,tags:["C#","Unity","Test Automation","QA Tooling"],links:[{label:"Fitbit Ace Arcade",url:"https://store.google.com/us/product/fitbit_ace_lte",type:"external"}],fullDescription:`
 
-  `},{id:"maka",title:"Millenials Are Killing Antiques",year:"2019",role:"Producer, Writer, Designer",category:"jam",image:"/images/maka/avo3-1.gif",description:`
+  `},{id:"maka",title:"Millenials Are Killing Antiques",year:"2019",role:"Producer, Writer, Designer",category:"jam",image:"/images/maka/maka.png",description:`
 2019 Global Game Jam Entry. A satirical game where you play as a piece of smashed avo, smashing things!
   `,tags:["C#","Unity","Global Game Jam"],links:[{label:"Millenials Are Killing Antiques on Itch.io",url:"https://aradicaldreamer.itch.io/millennials-are-killing-antiques",type:"external"}],fullDescription:`
 
