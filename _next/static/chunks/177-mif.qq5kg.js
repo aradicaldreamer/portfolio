@@ -38,7 +38,7 @@ Lead Programmer and Technical Producer on Piffle live service updates in 2025. A
   `},{id:"lowerdecks",title:"Star Trek Lower Decks Mobile",year:"2020-2024",team:"Mighty Build and Test",role:"Lead Automation Engineer",category:"professional",image:"/images/lowerdecks/lowerdecks.png",description:`
   `,tags:["C#","Unity","Test Automation","CI/CD Build Support","Client Relationship Management"],links:[{label:"Star Trek Lower Decks Mobile",url:"https://www.startreklowerdecksmobilegame.com",type:"external"}],fullDescription:`
 
-  `},{id:"shootyskiesoverdrive",title:"Shoopy Skies Overdrive",year:"2019-2022",team:"Mighty Build and Test, Mighty Games",role:"Automation Engineer, Programmer",category:"professional",image:"/images/shootyskiesoverdrive/header.jpg",description:`
+  `},{id:"shootyskiesoverdrive",title:"Shooty Skies Overdrive",year:"2019-2022",team:"Mighty Build and Test, Mighty Games",role:"Automation Engineer, Programmer",category:"professional",image:"/images/shootyskiesoverdrive/header.jpg",description:`
   `,tags:["C#","Unity","Test Automation","CI/CD Build Support","Release Management","LIV Capture Integration"],links:[{label:"Shoopy Skies Overdrive",url:"https://www.shootyskiesoverdrive.com",type:"external"}],fullDescription:`
 
   `},{id:"chopchop",title:"Conan Chop Chop",year:"2019-2022",team:"Mighty Build and Test",role:"Lead Automation Engineer",category:"professional",image:"/images/chopchop/chopchop.png",description:`
