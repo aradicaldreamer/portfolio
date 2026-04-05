@@ -8,12 +8,14 @@ export type { Project, ProjectSection, ProjectLink } from "./types";
 import { fitbitArcade } from "./fitbit-arcade";
 import { piffleplus } from "./piffleplus";
 import { maka } from "./maka";
+import { igped } from "./igped";
 
 export const projects = [
   // Professional
   piffleplus,
   fitbitArcade,
   // Academic
+  igped,
   // Game Jams
   maka,
   // Speaking
