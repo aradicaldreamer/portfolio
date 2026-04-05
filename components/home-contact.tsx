@@ -45,6 +45,9 @@ export default function HomeContact() {
           </a>
         </div>
       </div>
+      <p className="text-zinc-500 dark:text-zinc-400 mb-10 max-w-md mx-auto text-center text-xs">
+        Portfolio Website Template Design by <a href="https://github.com/Aspekt1024/portfolio" target="_blank" rel="noopener noreferrer" className="text-indigo-500 dark:text-indigo-400 hover:underline">Dan Szabo</a>.
+      </p>
     </section>
   );
 }
