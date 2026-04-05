@@ -14,6 +14,7 @@ import { campervanGames } from "./campervanGames";
 import { ripperRideshare } from "./ripperRideshare";
 import { ggs } from "./ggs";
 import { chopchop } from "./chopchop";
+import { lowerdecks } from "./lowerdecks";
 
 export const projects = [
   // Professional
@@ -22,6 +23,7 @@ export const projects = [
   ggs,
   piffleplus,
   fitbitArcade,
+  lowerdecks,
   chopchop,
   // Academic
   igped,
