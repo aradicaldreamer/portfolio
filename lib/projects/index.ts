@@ -9,9 +9,11 @@ import { fitbitArcade } from "./fitbit-arcade";
 import { piffleplus } from "./piffleplus";
 import { maka } from "./maka";
 import { igped } from "./igped";
+import { mbt } from "./mbt";
 
 export const projects = [
   // Professional
+  mbt,
   piffleplus,
   fitbitArcade,
   // Academic
