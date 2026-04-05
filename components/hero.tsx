@@ -90,7 +90,7 @@ export default function Hero() {
               />
             </a>
             <a
-              href="mailto:campervangames@gmail.com"
+              href="mailto:contact@campervangames.com"
               aria-label="Email"
               className="w-11 h-11 flex items-center justify-center border border-amber-400 dark:border-amber-500 text-amber-500 dark:text-amber-400 hover:bg-amber-500 hover:text-white hover:border-amber-500 hover:scale-110 transition-all duration-150"
             >

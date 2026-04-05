@@ -10,9 +10,11 @@ import { piffleplus } from "./piffleplus";
 import { maka } from "./maka";
 import { igped } from "./igped";
 import { mbt } from "./mbt";
+import { campervanGames } from "./campervanGames";
 
 export const projects = [
   // Professional
+  campervanGames,
   mbt,
   piffleplus,
   fitbitArcade,
