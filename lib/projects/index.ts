@@ -17,6 +17,7 @@ import { chopchop } from "./chopchop";
 import { lowerdecks } from "./lowerdecks";
 import { piffle } from "./piffle";
 import { shootyskiesoverdrive } from "./shootyskiesoverdrive";
+import { piffleswitch } from "./piffleswitch";
 
 export const projects = [
   // Professional
@@ -26,6 +27,7 @@ export const projects = [
   piffleplus,
   fitbitArcade,
   piffle,
+  piffleswitch,
   lowerdecks,
   shootyskiesoverdrive,
   chopchop,
