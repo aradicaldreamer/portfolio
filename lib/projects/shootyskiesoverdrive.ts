@@ -2,7 +2,7 @@ import type { Project } from "./types";
 
 export const shootyskiesoverdrive: Project = {
   id: "shootyskiesoverdrive",
-  title: "Shoopy Skies Overdrive",
+  title: "Shooty Skies Overdrive",
   year: "2019-2022",
   team: "Mighty Build and Test, Mighty Games",
   role: "Automation Engineer, Programmer",
