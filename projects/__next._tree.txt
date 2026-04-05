@@ -10,9 +10,10 @@
 :HL["/images/ggs/ggs.png","image"]
 :HL["/images/piffleplus/PifflePlus_FeatureArt_02.png","image"]
 :HL["/images/fitbit/fitbit-arcade-watch.png","image"]
-:HL["/images/piffle/Piffle_Logo_Small.png","image"]
+:HL["/images/piffle/piffle.png","image"]
+:HL["/images/piffleswitch/piffleswitch.png","image"]
 :HL["/images/lowerdecks/lowerdecks.png","image"]
 :HL["/images/shootyskiesoverdrive/header.jpg","image"]
 :HL["/images/chopchop/chopchop.png","image"]
 :HL["/images/ripperRideshare/ripper_rideshare.gif","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Sf3-rn9kZN0vFOZNz_C2W"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"KiNMLm4vjwSUhpNj9DRWh"}
