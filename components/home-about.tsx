@@ -17,7 +17,7 @@ export default function HomeAbout() {
         <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight mb-10">
           Bio
         </h2>
-        <div className="text-sm max-w-lg mb-8">
+        <div className="text-sm mb-8">
           {renderBody(bio)}
         </div>
 
