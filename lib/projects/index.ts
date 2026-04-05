@@ -11,6 +11,7 @@ import { maka } from "./maka";
 import { igped } from "./igped";
 import { mbt } from "./mbt";
 import { campervanGames } from "./campervanGames";
+import { ripperRideshare } from "./ripperRideshare";
 
 export const projects = [
   // Professional
@@ -22,6 +23,7 @@ export const projects = [
   igped,
   // Game Jams
   maka,
+  ripperRideshare,
   // Speaking
 ];
 
