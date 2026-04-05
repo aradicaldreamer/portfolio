@@ -7,7 +7,7 @@ export const piffle: Project = {
   team: "Mighty Games, Mighty Build and Test",
   role: "Technical Producer, Automation Engineer",
   category: "professional",
-  image: "/images/piffle/Piffle_Logo_Small.png",
+  image: "/images/piffle/piffle.png",
   description: `
 Lead Programmer and Technical Producer on Piffle live service updates in 2025. Automation Engineer on the original Piffle launch and live service support from 2019-2022.
   `,
