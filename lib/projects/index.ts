@@ -18,6 +18,7 @@ import { lowerdecks } from "./lowerdecks";
 import { piffle } from "./piffle";
 import { shootyskiesoverdrive } from "./shootyskiesoverdrive";
 import { piffleswitch } from "./piffleswitch";
+import { legoParty } from "./lego-party";
 
 export const projects = [
   // Professional
@@ -25,6 +26,7 @@ export const projects = [
   mbt,
   ggs,
   piffleplus,
+  legoParty,
   fitbitArcade,
   piffle,
   piffleswitch,
