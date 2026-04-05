@@ -13,6 +13,7 @@ import { mbt } from "./mbt";
 import { campervanGames } from "./campervanGames";
 import { ripperRideshare } from "./ripperRideshare";
 import { ggs } from "./ggs";
+import { chopchop } from "./chopchop";
 
 export const projects = [
   // Professional
@@ -21,6 +22,7 @@ export const projects = [
   ggs,
   piffleplus,
   fitbitArcade,
+  chopchop,
   // Academic
   igped,
   // Game Jams
