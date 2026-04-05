@@ -15,6 +15,7 @@ import { ripperRideshare } from "./ripperRideshare";
 import { ggs } from "./ggs";
 import { chopchop } from "./chopchop";
 import { lowerdecks } from "./lowerdecks";
+import { piffle } from "./piffle";
 
 export const projects = [
   // Professional
@@ -23,6 +24,7 @@ export const projects = [
   ggs,
   piffleplus,
   fitbitArcade,
+  piffle,
   lowerdecks,
   chopchop,
   // Academic
