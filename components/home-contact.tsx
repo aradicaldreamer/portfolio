@@ -12,14 +12,14 @@ export default function HomeContact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="mailto:campervangames@gmail.com"
+            href="mailto:contact@campervangames.com"
             className="inline-flex items-center gap-2.5 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white text-sm transition-colors"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="M2 7l10 7 10-7" />
             </svg>
-            campervangames@gmail.com
+            contact@campervangames.com
           </a>
           <a
             href="https://linkedin.com/in/matthewdeline"
