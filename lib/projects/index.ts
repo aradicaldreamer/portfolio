@@ -12,11 +12,13 @@ import { igped } from "./igped";
 import { mbt } from "./mbt";
 import { campervanGames } from "./campervanGames";
 import { ripperRideshare } from "./ripperRideshare";
+import { ggs } from "./ggs";
 
 export const projects = [
   // Professional
   campervanGames,
   mbt,
+  ggs,
   piffleplus,
   fitbitArcade,
   // Academic
