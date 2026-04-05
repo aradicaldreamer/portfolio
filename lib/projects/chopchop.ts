@@ -10,7 +10,7 @@ export const chopchop: Project = {
   image: "/images/chopchop/chopchop.png",
   description: `
   `,
-  tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support"],
+  tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
       label: "Conan Chop Chop",
