@@ -21,6 +21,7 @@
 :HL["/images/fruitninja2/fruitninja2.png","image"]
 :HL["/images/monsterdash/monsterdash.png","image"]
 :HL["/images/jetpackjoyride/jetpackjoyride.png","image"]
+:HL["/images/vactics/vactics.jpg","image"]
 :HL["/images/botworldadventure/botworldadventure.jpg","image"]
 :HL["/images/hotlapleague/hotlapleague.jpg","image"]
 :HL["/images/piffleswitch/piffleswitch.png","image"]
@@ -29,4 +30,4 @@
 :HL["/images/trainconductorworld/trainconductorworld.jpg","image"]
 :HL["/images/neocab/neocab.jpg","image"]
 :HL["/images/ripperRideshare/ripper_rideshare.gif","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"0iZRMi1Pt5Lmndwpsl0fe"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"LLurtiL2cnTCNAzNJFpOu"}

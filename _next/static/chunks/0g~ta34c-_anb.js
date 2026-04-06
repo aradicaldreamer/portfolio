@@ -65,6 +65,9 @@ Served as Senior Development Manager / Head of Automation Engineering on Warped 
   `},{id:"jetpackjoyride",title:"Jetpack Joyride",year:"2020-2024",team:"Halfbrick (via Mighty Build and Test)",role:"Senior Automation Engineer",category:"professional",image:"/images/jetpackjoyride/jetpackjoyride.png",description:`
   `,tags:["C++","Custom Engine","Test Automation","CI/CD Build Support","Client Relationship Management"],links:[{label:"Website",url:"https://www.halfbrick.com/games/jetpack-joyride",type:"external"}],fullDescription:`
 
+  `},{id:"vactics",title:"Vactics",year:"2022-2023",team:"The Lemur Conspiracy (via Mighty Build and Test)",role:"Senior Automation Engineer",category:"professional",image:"/images/vactics/vactics.jpg",description:`
+  `,tags:["C#","Unity","CI/CD Build Support"],links:[{label:"Vactics on Steam",url:"https://store.steampowered.com/app/1938290/Vactics/",type:"external"}],fullDescription:`
+
   `},{id:"botworldadventure",title:"Botworld Adventure",year:"2020-2021",team:"Featherweight Games (via Mighty Build and Test)",role:"Automation Engineer",category:"professional",image:"/images/botworldadventure/botworldadventure.jpg",description:`
   `,tags:["C#","Unity","Test Automation","CI/CD Build Support","Client Relationship Management"],links:[{label:"Website",url:"https://www.featherweightgames.com/botworld",type:"external"}],fullDescription:`
 
