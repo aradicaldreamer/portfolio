@@ -26,6 +26,7 @@ import { jetpackjoyride } from "./jetpackjoyride";
 import { trainconductorworld } from "./trainconductorworld";
 import { botworldadventure } from "./botworldadventure";
 import { armello } from "./armello";
+import { crossyroadplus } from "./crossyroadplus";
 
 export const projects = [
   // Professional
@@ -38,6 +39,7 @@ export const projects = [
   piffle,
   armello,
   lowerdecks,
+  crossyroadplus,
   fruitninja,
   fruitninja2,
   monsterdash,
