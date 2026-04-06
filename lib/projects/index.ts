@@ -34,6 +34,7 @@ import { warpedkartracers } from "./warpedkartracers";
 import { vactics } from "./vactics";
 import { necrobarista } from "./necrobarista";
 import { tumbletime } from "./tumbletime";
+import { wildlife } from "./wildlife";
 
 export const projects = [
   // Professional
@@ -61,6 +62,7 @@ export const projects = [
   piffleswitch,
   shootyskiesoverdrive,
   chopchop,
+  wildlife,
   trainconductorworld,
   neocab,
   // Academic
