@@ -19,6 +19,10 @@ import { piffle } from "./piffle";
 import { shootyskiesoverdrive } from "./shootyskiesoverdrive";
 import { piffleswitch } from "./piffleswitch";
 import { legoParty } from "./lego-party";
+import { fruitninja } from "./fruitninja";
+import { fruitninja2 } from "./fruitninja2";
+import { monsterdash } from "./monsterdash";
+import { jetpackjoyride } from "./jetpackjoyride";
 
 export const projects = [
   // Professional
@@ -31,6 +35,10 @@ export const projects = [
   piffle,
   piffleswitch,
   lowerdecks,
+  fruitninja,
+  fruitninja2,
+  monsterdash,
+  jetpackjoyride,
   shootyskiesoverdrive,
   chopchop,
   // Academic

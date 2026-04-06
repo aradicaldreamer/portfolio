@@ -5,7 +5,7 @@ export const chopchop: Project = {
   title: "Conan Chop Chop",
   year: "2019-2022",
   team: "Mighty Build and Test",
-  role: "Lead Automation Engineer",
+  role: "Senior Automation Engineer",
   category: "professional",
   image: "/images/chopchop/chopchop.png",
   description: `
