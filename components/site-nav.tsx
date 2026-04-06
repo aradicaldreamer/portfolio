@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
-  { label: "projects", href: "/#work" },
+  { label: "projects", href: "/projects" },
   { label: "about", href: "/#about" },
   { label: "contact", href: "/#contact" },
   { label: "play", href: "https://aradicaldreamer.itch.io"},
