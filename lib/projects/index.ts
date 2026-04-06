@@ -30,6 +30,7 @@ import { crossyroadplus } from "./crossyroadplus";
 import { att } from "./att";
 import { neocab } from "./neocab";
 import { hotlapleague } from "./hotlapleague";
+import { warpedkartracers } from "./warpedkartracers";
 
 export const projects = [
   // Professional
@@ -40,6 +41,7 @@ export const projects = [
   legoParty,
   fitbitArcade,
   piffle,
+  warpedkartracers,
   armello,
   lowerdecks,
   att,
