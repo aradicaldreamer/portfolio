@@ -31,6 +31,7 @@ import { att } from "./att";
 import { neocab } from "./neocab";
 import { hotlapleague } from "./hotlapleague";
 import { warpedkartracers } from "./warpedkartracers";
+import { vactics } from "./vactics";
 
 export const projects = [
   // Professional
@@ -50,6 +51,7 @@ export const projects = [
   fruitninja2,
   monsterdash,
   jetpackjoyride,
+  vactics,
   botworldadventure,
   hotlapleague,
   piffleswitch,
