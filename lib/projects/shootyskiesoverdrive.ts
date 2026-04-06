@@ -13,7 +13,7 @@ export const shootyskiesoverdrive: Project = {
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Release Management", "LIV Capture Integration"],
   links: [
     {
-      label: "Shoopy Skies Overdrive",
+      label: "Shooty Skies Overdrive",
       url: "https://www.shootyskiesoverdrive.com",
       type: "external",
     },
