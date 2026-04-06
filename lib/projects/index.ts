@@ -24,6 +24,7 @@ import { fruitninja2 } from "./fruitninja2";
 import { monsterdash } from "./monsterdash";
 import { jetpackjoyride } from "./jetpackjoyride";
 import { trainconductorworld } from "./trainconductorworld";
+import { botworldadventure } from "./botworldadventure";
 
 export const projects = [
   // Professional
@@ -34,12 +35,13 @@ export const projects = [
   legoParty,
   fitbitArcade,
   piffle,
-  piffleswitch,
   lowerdecks,
   fruitninja,
   fruitninja2,
   monsterdash,
   jetpackjoyride,
+  botworldadventure,
+  piffleswitch,
   shootyskiesoverdrive,
   chopchop,
   trainconductorworld,
