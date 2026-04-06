@@ -14,7 +14,7 @@ Lead Programmer and Technical Producer on Piffle+, an enhanced version of the or
   tags: ["C#", "Unity", "Production", "Release Management", "Apple Arcade"],
   links: [
     {
-      label: "Piffle+",
+      label: "Website",
       url: "https://www.pifflegame.com/piffle-plus",
       type: "external",
     },

@@ -4,7 +4,7 @@ export const monsterdash: Project = {
   id: "monsterdash",
   title: "Monster Dash",
   year: "2020-2022",
-  team: "Mighty Build and Test",
+  team: "Halfbrick (via Mighty Build and Test)",
   role: "Senior Automation Engineer",
   category: "professional",
   image: "/images/monsterdash/monsterdash.png",
@@ -13,7 +13,7 @@ export const monsterdash: Project = {
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
-      label: "Monster Dash",
+      label: "Website",
       url: "https://www.halfbrick.com/games/monster-dash",
       type: "external",
     },

@@ -4,7 +4,7 @@ export const chopchop: Project = {
   id: "chopchop",
   title: "Conan Chop Chop",
   year: "2019-2022",
-  team: "Mighty Build and Test",
+  team: "Mighty Kingdom (via Mighty Build and Test)",
   role: "Automation Engineer",
   category: "professional",
   image: "/images/chopchop/chopchop.png",
@@ -13,7 +13,7 @@ export const chopchop: Project = {
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
-      label: "Conan Chop Chop",
+      label: "Website",
       url: "https://www.conanchopchop.com/",
       type: "external",
     },

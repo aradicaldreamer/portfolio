@@ -4,7 +4,7 @@ export const ggs: Project = {
   id: "ggs",
   title: "Guilty Gear -Strive- Nintendo Switch Edition",
   year: "2023-2025",
-  team: "Mighty Build and Test",
+  team: "Arc System Works / Tantalus South (via Mighty Build and Test)",
   role: "Senior Development Manager, Head of Automation Engineering",
   category: "professional",
   image: "/images/ggs/ggs.png",
@@ -15,7 +15,7 @@ CI/CD build and release management support for the Nintendo Switch port of Guilt
   tags: ["Unreal Engine", "C++", "Test Automation", "CI/CD", "Release Management"],
   links: [
     {
-      label: "Guilty Gear -Strive- Nintendo Switch Edition",
+      label: "Website",
       url: "https://www.guiltygear.com/ggst/sw/en/",
       type: "external",
     },

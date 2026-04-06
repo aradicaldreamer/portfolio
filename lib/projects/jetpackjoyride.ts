@@ -4,7 +4,7 @@ export const jetpackjoyride: Project = {
   id: "jetpackjoyride",
   title: "Jetpack Joyride",
   year: "2020-2024",
-  team: "Mighty Build and Test",
+  team: "Halfbrick (via Mighty Build and Test)",
   role: "Senior Automation Engineer",
   category: "professional",
   image: "/images/jetpackjoyride/jetpackjoyride.png",
@@ -13,7 +13,7 @@ export const jetpackjoyride: Project = {
   tags: ["C++", "Custom Engine", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
-      label: "Jetpack Joyride",
+      label: "Website",
       url: "https://www.halfbrick.com/games/jetpack-joyride",
       type: "external",
     },

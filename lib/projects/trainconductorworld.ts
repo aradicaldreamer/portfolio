@@ -4,7 +4,7 @@ export const trainconductorworld: Project = {
   id: "trainconductorworld",
   title: "Train Conductor World",
   year: "2019-2021",
-  team: "Mighty Build and Test",
+  team: "The Voxel Agents (via Mighty Build and Test)",
   role: "Automation Engineer",
   category: "professional",
   image: "/images/trainconductorworld/trainconductorworld.jpg",
@@ -13,7 +13,7 @@ export const trainconductorworld: Project = {
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
-      label: "Train Conductor World",
+      label: "Website",
       url: "https://www.trainconductorworld.com",
       type: "external",
     },

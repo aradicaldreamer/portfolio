@@ -11,10 +11,10 @@ export const campervanGames: Project = {
   description: `
 Independent Game Development studio creating wholesome, engaging experiences.
   `,
-  tags: ["Game Development", "Unity", "C#", "Indie Games"],
+  tags: ["Game Development", "Unity", "C#", "Indie Games", "Consulting Services"],
   links: [
     {
-      label: "Campervan Games",
+      label: "Website",
       url: "https://www.campervangames.com",
       type: "external",
     },

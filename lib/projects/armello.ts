@@ -4,7 +4,7 @@ export const armello: Project = {
   id: "armello",
   title: "Armello Crossplay Update",
   year: "2021-2022",
-  team: "Mighty Build and Test",
+  team: "League of Geeks (via Mighty Build and Test)",
   role: "Lead Automation Engineer",
   category: "professional",
   image: "/images/armello/armello.png",

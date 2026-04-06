@@ -4,7 +4,7 @@ export const piffleswitch: Project = {
   id: "piffleswitch",
   title: "Piffle Switch",
   year: "2019-2022",
-  team: "Mighty Build and Test",
+  team: "Mighty Games (via Mighty Build and Test)",
   role: "Automation Engineer",
   category: "professional",
   image: "/images/piffleswitch/piffleswitch.png",
@@ -13,7 +13,7 @@ export const piffleswitch: Project = {
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support"],
   links: [
     {
-      label: "Piffle Switch",
+      label: "Website",
       url: "https://www.pifflegame.com",
       type: "external",
     },
