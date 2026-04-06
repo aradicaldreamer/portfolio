@@ -29,7 +29,8 @@
 :HL["/images/piffleswitch/piffleswitch.png","image"]
 :HL["/images/shootyskiesoverdrive/header.jpg","image"]
 :HL["/images/chopchop/chopchop.png","image"]
+:HL["/images/wildlife/wildlife.png","image"]
 :HL["/images/trainconductorworld/trainconductorworld.jpg","image"]
 :HL["/images/neocab/neocab.jpg","image"]
 :HL["/images/ripperRideshare/ripper_rideshare.gif","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"_SLe4Esx6BqIDe9goonEn"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"CNHkIoeQItsJcd5drPa-l"}
