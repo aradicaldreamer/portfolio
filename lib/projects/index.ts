@@ -35,6 +35,8 @@ import { vactics } from "./vactics";
 import { necrobarista } from "./necrobarista";
 import { tumbletime } from "./tumbletime";
 import { wildlife } from "./wildlife";
+import { peterrabbitrun } from "./peterrabbitrun";
+import { barbie } from "./barbie";
 
 export const projects = [
   // Professional
@@ -63,6 +65,8 @@ export const projects = [
   shootyskiesoverdrive,
   chopchop,
   wildlife,
+  peterrabbitrun,
+  barbie,
   trainconductorworld,
   neocab,
   // Academic
