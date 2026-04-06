@@ -1,20 +1,20 @@
 import type { Project } from "./types";
 
-export const chopchop: Project = {
-  id: "chopchop",
-  title: "Conan Chop Chop",
-  year: "2019-2022",
+export const trainconductorworld: Project = {
+  id: "trainconductorworld",
+  title: "Train Conductor World",
+  year: "2019-2021",
   team: "Mighty Build and Test",
   role: "Automation Engineer",
   category: "professional",
-  image: "/images/chopchop/chopchop.png",
+  image: "/images/trainconductorworld/trainconductorworld.jpg",
   description: `
   `,
   tags: ["C#", "Unity", "Test Automation", "CI/CD Build Support", "Client Relationship Management"],
   links: [
     {
-      label: "Conan Chop Chop",
-      url: "https://www.conanchopchop.com/",
+      label: "Train Conductor World",
+      url: "https://www.trainconductorworld.com",
       type: "external",
     },
   ],

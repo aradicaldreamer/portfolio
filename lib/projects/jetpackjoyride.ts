@@ -5,7 +5,7 @@ export const jetpackjoyride: Project = {
   title: "Jetpack Joyride",
   year: "2020-2024",
   team: "Mighty Build and Test",
-  role: "Lead Automation Engineer",
+  role: "Senior Automation Engineer",
   category: "professional",
   image: "/images/jetpackjoyride/jetpackjoyride.png",
   description: `

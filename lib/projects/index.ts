@@ -23,6 +23,7 @@ import { fruitninja } from "./fruitninja";
 import { fruitninja2 } from "./fruitninja2";
 import { monsterdash } from "./monsterdash";
 import { jetpackjoyride } from "./jetpackjoyride";
+import { trainconductorworld } from "./trainconductorworld";
 
 export const projects = [
   // Professional
@@ -41,6 +42,7 @@ export const projects = [
   jetpackjoyride,
   shootyskiesoverdrive,
   chopchop,
+  trainconductorworld,
   // Academic
   igped,
   // Game Jams
