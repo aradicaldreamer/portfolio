@@ -32,6 +32,8 @@ import { neocab } from "./neocab";
 import { hotlapleague } from "./hotlapleague";
 import { warpedkartracers } from "./warpedkartracers";
 import { vactics } from "./vactics";
+import { necrobarista } from "./necrobarista";
+import { tumbletime } from "./tumbletime";
 
 export const projects = [
   // Professional
@@ -51,9 +53,11 @@ export const projects = [
   fruitninja2,
   monsterdash,
   jetpackjoyride,
+  tumbletime,
   vactics,
   botworldadventure,
   hotlapleague,
+  necrobarista,
   piffleswitch,
   shootyskiesoverdrive,
   chopchop,
