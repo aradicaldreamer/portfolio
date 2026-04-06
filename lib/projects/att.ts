@@ -10,7 +10,7 @@ export const att: Project = {
   image: "/images/att/att.jpg",
   description: `
   `,
-  tags: ["C#", "Unity", "CI/CD Build Support", "Perforce", "Meta Quest", "Linux Server", "Steam VR", "Client Relationship Management"],
+  tags: ["C#", "Unity", "CI/CD Build Support", "Plastic SCM", "Meta Quest", "Linux Server", "Steam VR", "Client Relationship Management"],
   links: [
     {
       label: "Website",

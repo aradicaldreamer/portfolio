@@ -40,6 +40,7 @@ import { barbie } from "./barbie";
 import { shapearcade } from "./shapearcade";
 import { shapearcadeunity } from "./shapearcadeunity";
 import { bodyhere } from "./bodyhere";
+import { thelongrun } from "./thelongrun";
 
 export const projects = [
   // Professional
@@ -74,6 +75,7 @@ export const projects = [
   trainconductorworld,
   neocab,
   shapearcadeunity,
+  thelongrun,
   // Academic
   igped,
   shapearcade,
