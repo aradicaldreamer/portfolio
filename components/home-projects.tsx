@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { projects, type Project } from "@/lib/projects";
 
-const HOME_PROJECT_IDS = ["campervanGames", "mbt", "ggs", "piffleplus", "fitbit-arcade", "maka"];
+const HOME_PROJECT_IDS = ["mbt", "piffleplus", "ggs", "fitbit-arcade", "campervanGames", "shapearcadeunity", "maka", "igped"];
 
 function ProjectCard({ project }: { project: Project }) {
   return (
