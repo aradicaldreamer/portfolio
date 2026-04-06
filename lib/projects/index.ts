@@ -28,6 +28,8 @@ import { botworldadventure } from "./botworldadventure";
 import { armello } from "./armello";
 import { crossyroadplus } from "./crossyroadplus";
 import { att } from "./att";
+import { neocab } from "./neocab";
+import { hotlapleague } from "./hotlapleague";
 
 export const projects = [
   // Professional
@@ -47,10 +49,12 @@ export const projects = [
   monsterdash,
   jetpackjoyride,
   botworldadventure,
+  hotlapleague,
   piffleswitch,
   shootyskiesoverdrive,
   chopchop,
   trainconductorworld,
+  neocab,
   // Academic
   igped,
   // Game Jams
