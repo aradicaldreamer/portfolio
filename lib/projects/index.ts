@@ -37,6 +37,8 @@ import { tumbletime } from "./tumbletime";
 import { wildlife } from "./wildlife";
 import { peterrabbitrun } from "./peterrabbitrun";
 import { barbie } from "./barbie";
+import { shapearcade } from "./shapearcade";
+import { shapearcadeunity } from "./shapearcadeunity";
 
 export const projects = [
   // Professional
@@ -69,8 +71,10 @@ export const projects = [
   barbie,
   trainconductorworld,
   neocab,
+  shapearcadeunity,
   // Academic
   igped,
+  shapearcade,
   // Game Jams
   maka,
   ripperRideshare,
