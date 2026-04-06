@@ -39,6 +39,7 @@ import { peterrabbitrun } from "./peterrabbitrun";
 import { barbie } from "./barbie";
 import { shapearcade } from "./shapearcade";
 import { shapearcadeunity } from "./shapearcadeunity";
+import { bodyhere } from "./bodyhere";
 
 export const projects = [
   // Professional
@@ -50,6 +51,7 @@ export const projects = [
   fitbitArcade,
   piffle,
   warpedkartracers,
+  bodyhere,
   armello,
   lowerdecks,
   att,
