@@ -25,6 +25,7 @@ import { monsterdash } from "./monsterdash";
 import { jetpackjoyride } from "./jetpackjoyride";
 import { trainconductorworld } from "./trainconductorworld";
 import { botworldadventure } from "./botworldadventure";
+import { armello } from "./armello";
 
 export const projects = [
   // Professional
@@ -35,6 +36,7 @@ export const projects = [
   legoParty,
   fitbitArcade,
   piffle,
+  armello,
   lowerdecks,
   fruitninja,
   fruitninja2,
