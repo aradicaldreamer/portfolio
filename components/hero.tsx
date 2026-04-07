@@ -42,13 +42,12 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="flex items-center gap-3 flex-wrap mb-8">
-            {/* Uncomment the below button when the CV has been added */}
-            {/* <a href="/CV.pdf" download>
+            <a href="/Matthew_Deline_CV_Online.pdf" download>
               <Button className="bg-indigo-500 hover:bg-indigo-400 text-white rounded-none font-medium text-sm px-5 gap-2 transition-colors">
                 <Download size={14} />
                 Download CV
               </Button>
-            </a> */}
+            </a>
             <a href="/projects">
               <Button
                 variant="outline"
