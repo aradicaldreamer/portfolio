@@ -42,10 +42,10 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="flex items-center gap-3 flex-wrap mb-8">
-            <a href="/Matthew_Deline_CV_Online.pdf" download>
+            <a href="https://my.visualcv.com/matthewdeline" target="_blank" rel="noopener noreferrer">
               <Button className="bg-indigo-500 hover:bg-indigo-400 text-white rounded-none font-medium text-sm px-5 gap-2 transition-colors">
-                <Download size={14} />
-                Download CV
+                {/* <Download size={14} /> */}
+                CV
               </Button>
             </a>
             <a href="/projects">
@@ -53,7 +53,7 @@ export default function Hero() {
                 variant="outline"
                 className="rounded-none text-sm px-5 bg-transparent border-zinc-300 dark:border-zinc-700 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:border-zinc-400 dark:hover:border-zinc-500 transition-colors"
               >
-                My Projects
+                Projects
               </Button>
             </a>
           </div>
